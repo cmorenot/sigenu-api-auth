@@ -1,0 +1,35 @@
+# Entorno virtual
+venv/
+.env
+*.env
+.env.*
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Archivos de SQLite (opcional)
+*.sqlite3
+
+# Archivos de logs
+*.log
+
+# Archivos de migraciones (opcional si quieres mantenerlos versionados)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Archivos de configuración de VSCode y otros editores
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación de frontend (si los tienes en el mismo proyecto)
+node_modules/
+dist/
+build/
