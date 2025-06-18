@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'sigenu_auth',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -126,3 +128,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+AGA_AUTH_URL = os.getenv('AGA_AUTH_URL')
+AGA_TOKEN = os.getenv('AGA_TOKEN')
+ORIGIN_URL = os.getenv('ORIGIN_URL')
