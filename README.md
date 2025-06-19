@@ -114,7 +114,7 @@ Y prueba desde la interfaz de Django REST Framework.
 
 ## 🧑‍💻 Autor
 
-- **Carlos Moreno** – [tu.correo@uho.edu.cu]
+- **Carlos Moreno** – [cmorenot@uho.edu.cu]
 
 ---
 
